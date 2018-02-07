@@ -1,0 +1,39 @@
+.card{
+   margin-left:36%;
+   margin-top: 8%;
+   border-radius: 20px;
+   width: 26%;
+   height: 30%;
+}
+.strong-green{
+    color:green;
+}
+
+.text-center{
+    align-content: center;
+}
+
+.card-body{
+    padding-top: 2%;
+    margin-left:7%;
+}
+
+.show-hide{
+    border-radius: 15px;
+    border: solid;
+    background-color: rgb(50,50,50);
+    color: aliceblue;
+    font-size: 12px;
+
+    margin-left: 33%;
+}
+
+.btn-answer{
+    margin-bottom: 2%;
+}
+.ans-body{
+    color:#1072C8;
+    
+}
+
+

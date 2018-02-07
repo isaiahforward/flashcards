@@ -1,0 +1,33 @@
+
+.btn-container{
+    margin-top: 2%;
+    transform: translateX(5%);
+}
+
+.btn{
+    border-style:solid;
+    border-radius: 45%;
+}
+
+.prev{
+    display: block;
+    float: left;
+    transform: translateX(560%);
+}
+
+.next{
+    display: block;
+    float: left;
+    transform: translateX(800%);
+}
+.random{
+    display: block;
+    float: left;
+    transform: translateX(482%);
+}
+
+.holders{
+    height: 40%;
+    width: 200px;
+    padding-bottom: 2%;
+}

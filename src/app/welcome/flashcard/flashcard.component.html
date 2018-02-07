@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title"> {{ flashcards.question }}</h5>
+        <div class="ans-body">
+            <p *ngIf="display">
+                <strong class="ans">{{ flashcards.answer }}</strong>
+            </p>
+            <button (click)="toggleAnswer()" class="show-hide btn-answer">{{(display) ? 'Hide' : 'Show'}} Answer</button>
+        </div>
+    </div>
+</div>
